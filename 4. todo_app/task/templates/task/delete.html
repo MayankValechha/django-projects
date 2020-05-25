@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+     <div class="form">
+        <form action="" method="POST">
+            {% csrf_token %}
+            <h3>Are you sure you want to delete "{{task}}" ? </h3>
+            <a class="btn btn-warning btn-sm" href="/">Cancel</a>
+            <input class="form-control btn btn-danger btn-sm" type="submit" value="Delete Task">
+        </form>
+    </div>  
+{% endblock content %}

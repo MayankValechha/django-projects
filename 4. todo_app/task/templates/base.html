@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://bootswatch.com/4/cosmo/bootstrap.min.css">
+    <title>Todo List</title>
+</head>
+<style>
+    input[type=text]{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    input[type=checkbox]{
+        position:relative;
+        top:2px;
+        margin-left:10px;
+    }
+
+    .todo-item {
+        padding:10px;
+        border-bottom: 1px solid #ccc;
+    }
+
+</style>
+<body>
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+        <a class="navbar-brand" href="/">Django Todo List</a>      
+            <ul class="navbar-nav">
+        </ul>
+      </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 my-3">
+                {% block content %}
+        
+                {% endblock content %}
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+</body>
+</html>
