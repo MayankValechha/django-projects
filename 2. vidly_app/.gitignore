@@ -1,0 +1,10 @@
+env/
+.vscode
+.pylintrc
+
+# Migrations
+__pycache__
+*.pyc
+
+# Static Files
+static/
