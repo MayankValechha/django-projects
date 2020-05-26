@@ -1,5 +1,6 @@
 # django-projects
 This repository contains the project that I've created using Django
+Give it a star 🌟, guys! You can fork it also and we can work together on it!
 
 ## List of Projects and their images
 
